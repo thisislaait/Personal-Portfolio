@@ -89,6 +89,11 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  color: black;
+  background-color : rgb(149, 225, 255);
+}
+
 span {
   color: black;
 }
