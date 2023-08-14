@@ -1,0 +1,115 @@
+
+@media screen and (max-width: 900px){
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  section {
+    margin: 0.5%;
+  }
+  
+  .sect-container {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--mainFont);
+    padding-bottom: 4%;
+  }
+  
+  img {
+    width: 50%;
+    align-self: center;
+    border-radius: var(--boxStyle);
+  }
+  
+  #pic {
+    margin-left: 26%;
+  }
+  
+  .profile-text {
+    width: 60%;
+    text-align: center;
+  }
+  
+  #pitch-text {
+    font-size: 1.7rem;
+  }
+  
+  #bio-pic {
+    width: 365px;
+    border-radius: 40px;
+    margin-left: 7%;
+  }
+  
+  .bio-details {
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  .bio-details h3 {
+    font-size: 1.5rem;
+  }
+  
+  .bio-details p {
+    font-size: 1rem;
+  }
+  
+  #summary-text{
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  
+  .bio-summary, .pitch-btn {
+    margin-right: 15px;
+    margin-left: 25px;
+    padding: 2% 0;
+  }
+  
+  .bio-details-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #bio-details1 {
+    display: flex;
+    width: 87.2%;
+    justify-content: center;
+    gap: 6%;
+    margin-left: 3%;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .bio-details1-info h2{
+    font-size: 1rem;
+    display: flex;
+    gap: 0.2rem;
+  }
+  
+  
+  #email-icon {
+    width: 25px;
+    padding: 0px;
+    border-radius: var(--boxStyle);
+    background-color: rgb(255, 142, 255)
+  }
+  
+  .bio-details {
+    border: 1px solid black;
+    padding: 20px 10px;
+    border-radius: 30px;
+    text-align: center;
+  }
+}
+
+
