@@ -94,6 +94,16 @@ button:hover {
   background-color : rgb(149, 225, 255);
 }
 
+#btn2:hover {
+  color: black;
+  background-color : rgb(149, 225, 255);
+}
+
+#btn6:hover {
+  color: black;
+  background-color : rgb(149, 225, 255);
+}
+
 span {
   color: black;
 }
