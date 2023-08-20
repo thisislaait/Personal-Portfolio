@@ -384,3 +384,8 @@ button #icon-arrow2:hover {
 .hamburger-icon span:first-child{
   transform: none;
 }
+
+
+#footer-sect {
+  background-color: var(--backColorBtn);
+}
