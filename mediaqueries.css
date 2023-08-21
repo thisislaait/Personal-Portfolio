@@ -35,10 +35,11 @@
   .profile-text {
     width: 60%;
     text-align: center;
+    font-size: 1.2rem;
   }
   
   #pitch-text {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
   
   #bio-pic {
