@@ -38,7 +38,7 @@
   }
   
   #pitch-text {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
   
   #bio-pic {
@@ -53,10 +53,6 @@
     padding: 20px;
     border-radius: 30px;
     text-align: center;
-  }
-
-  .name {
-    font-size: 2rem;
   }
   
   .bio-details h3 {
