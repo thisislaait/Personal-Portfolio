@@ -199,6 +199,7 @@ span {
 .bio-title {
   font-size: 2.5rem;
   font-weight: 600;
+  background-color: rgb(226, 206, 245);
 }
 
 #bio-pic {
@@ -283,10 +284,6 @@ button #icon-arrow2:hover {
   width: 35px;
   padding: 0px;
   border-radius: var(--boxStyle);
-  background-color: rgb(255, 142, 255);
-}
-
-.bio-title {
   background-color: rgb(255, 142, 255);
 }
 
