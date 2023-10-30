@@ -1,17 +1,24 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
+
+//importing pages
+import Home from "./pages/Home";
+
+//importing components
+import Layout from "./components/Layout";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className='h-screen flex justify-center items-center'>
-        <h1 className='text-black text-6xl text-center'>
-          hello
-        </h1>
-      </div>
-    </>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Layout>
+    </Router>
   )
 }
 
