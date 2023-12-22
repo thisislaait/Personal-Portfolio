@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect, useState } from 'react'
 import NavList from "../lib/navList";
 import {Link} from 'react-router-dom';
 
@@ -10,9 +10,15 @@ const Footer = () => {
     const specificLink2IDs = [4, 5, 6];
     const filteredLink2 = NavList.filter((item) => specificLink2IDs.includes(item.id));
 
+    const [ currentYear, setCurrentYear ] =useState(new Date().getFullYear());
+    
+    useEffect(() => {
+        setCurrentYear(new Date().getFullYear());
+    }, []);
+
   return (
-    <div className='bg-[#cff888] flex flex-col'>
-        <section className='pt-5 pb-10 flex justify-between pl-8'>
+    <div className='bg-gray-700 bg-opacity-25  flex flex-col'>
+        {/*<section className='pt-5 pb-10 flex justify-between pl-8'>
             <div className='text-lg font-semibold'>
                 Footer
             </div>
@@ -47,10 +53,10 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-        </section>
+        </section>*/}
         {/*<hr className='mt-6'/>*/}
-        <div className='flex justify-between mt-3 text-xs pl-8 pb-2'>
-            <h3 className=' text-left '>All rights reserved <span>&copy;</span> AfriChow2023
+        <div className='flex justify-center items-center my-5 text-[0.5rem]'>
+            <h3 className=' text-left '>All rights reserved <span>&copy;</span> Ugo Ogadi {currentYear}
             </h3>
         </div>
     </div>

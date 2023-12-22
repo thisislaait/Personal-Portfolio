@@ -1,13 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #0e0e0e;
+  color: white;
   text-align: center;
   font-family: 'Poppins';
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
+
+.portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill 300px);
+  grid-auto-rows: 10px;
+}
+
